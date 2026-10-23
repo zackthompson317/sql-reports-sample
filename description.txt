@@ -1,0 +1,2 @@
+SAMPLE WORK - SQL reporting pack on a synthetic sales database: monthly revenue with MoM growth, top customers by lifetime value, regional share, refund rates and churn-risk customers. Uses CTEs, joins and window functions; real output included.
+https://github.com/zackthompson317/sql-reports-sample

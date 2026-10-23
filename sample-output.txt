@@ -1,0 +1,54 @@
+-- 1. Monthly revenue with month-over-month growth
+month | revenue | mom_pct
+2025-06 | 20691.99 | None
+2025-07 | 12266.62 | -40.7
+2025-08 | 19015.5 | 55.0
+2025-09 | 13114.56 | -31.0
+2025-10 | 17820.43 | 35.9
+2025-11 | 13627.84 | -23.5
+2025-12 | 15042.66 | 10.4
+2026-01 | 19011.33 | 26.4
+2026-02 | 13581.89 | -28.6
+2026-03 | 13767.29 | 1.4
+2026-04 | 14655.72 | 6.5
+2026-05 | 11095.3 | -24.3
+
+-- 2. Top 10 customers by lifetime value
+name | region | orders | ltv
+Customer 6 | West | 14 | 7176.07
+Customer 46 | East | 13 | 7145.49
+Customer 51 | South | 12 | 6986.3
+Customer 42 | South | 14 | 6234.24
+Customer 3 | East | 10 | 6052.54
+Customer 31 | North | 13 | 5886.67
+Customer 32 | South | 12 | 5884.36
+Customer 52 | West | 10 | 5702.98
+Customer 24 | West | 10 | 5407.64
+Customer 45 | South | 10 | 5360.06
+
+-- 3. Revenue by region with share of total
+region | revenue | share_pct
+South | 80553.65 | 32.7
+East | 73377.02 | 29.7
+North | 47097.08 | 19.1
+West | 45677.62 | 18.5
+
+-- 4. Refund rate by region
+region | refund_pct
+West | 10.5
+South | 10.3
+East | 7.1
+North | 4.4
+
+-- 5. Customers inactive for 90+ days (churn risk)
+name | last_order
+Customer 21 | 2026-01-31
+Customer 56 | 2026-04-03
+Customer 35 | 2026-04-19
+Customer 12 | 2026-04-23
+Customer 16 | 2026-05-02
+Customer 1 | 2026-05-03
+Customer 20 | 2026-06-17
+Customer 38 | 2026-06-20
+Customer 51 | 2026-06-22
+Customer 36 | 2026-06-24
